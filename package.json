@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.7",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "TerraVerse-Launcher",
+    "preductname": "TerraVerse Launcher",
+    "version": "1.0.0",
+    "description": "Launcher Mincraft pour le serveur TerraVerse.",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "luuxis, TerraVerse.",
+        "email": "halpha.pro.officiel@gmail.com",
+        "url": "http://per-conventions.gl.at.ply.gg:7950/"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://tvlauncher.atwebpages.com",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=http://per-conventions.gl.at.ply.gg:7950/storage/img/logoserver.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/ZayzX/TerraVerseLauncher.git"
     }
 }
